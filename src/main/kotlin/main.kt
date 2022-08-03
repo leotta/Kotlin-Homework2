@@ -14,10 +14,10 @@ fun main() {
 
     //Задача 2
 
-    var likes = 61
-    if ( likes % 10 == 1 ) {
-        println("Приложение нравится " + likes + " человеку")
-    } else {println("Приложение нравится " + likes + " людям")}
+    var likes = 611
+    if ( likes % 100 == 11 ) { println("Приложение нравится $likes людям")
+    } else if ( likes % 10 == 1 ) {println("Приложение нравится $likes человеку")
+    } else { println("Приложение нравится $likes людям")}
 
     //Задача 3
 
